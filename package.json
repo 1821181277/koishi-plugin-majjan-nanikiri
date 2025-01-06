@@ -2,6 +2,11 @@
   "name": "koishi-plugin-majjan-nanikiri",
   "description": "麻将手牌何切题目和答案",
   "version": "0.0.1",
+  "author": "Kumin <1821181277@qq.com>",
+  "maintainers": [
+    "Kumin <1821181277@qq.com>"
+  ],
+  "homepage": "https://github.com/1821181277/koishi-plugin-majjan-nanikiri",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -11,12 +16,24 @@
   "license": "MIT",
   "scripts": {},
   "keywords": [
-    "chatbot",
+    "maajan",
     "koishi",
     "plugin"
   ],
   "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.3"
+  },
+  "koishi": {
+    "description": {
+      "en": "koishi plugin for Japanese maajan nanikiri questions",
+      "zh": "koishi 插件 日麻何切问答"
+    },
+    "service": {
+      "required": [],
+      "optional": [],
+      "implements": []
+    },
+    "locales": ["zh"]
   }
 }
